@@ -1,0 +1,39 @@
+{
+  "name": "homegrown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development nodemon --watch ./* --inspect ./config/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwintastic/homeGrown.git"
+  },
+  "keywords": [
+    "home",
+    "made",
+    "food"
+  ],
+  "author": "ashwin K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashwintastic/homeGrown/issues"
+  },
+  "homepage": "https://github.com/ashwintastic/homeGrown#readme",
+  "dependencies": {
+    "cross-env": "^6.0.0",
+    "express": "^4.17.1",
+    "js-yaml": "^3.13.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2",
+    "sequelize": "^5.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "eslint": "^6.5.0"
+  }
+}
