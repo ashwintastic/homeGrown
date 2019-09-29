@@ -1,7 +1,12 @@
+import user from '../app/model/user'
+
+console.log('============', new user())
+
 const express = require('express');
 const app = express();
 const port = 3000;
 require('../db/connection');
+
 
 
 app.get('/', (req, res) => res.send({message: 'Hello World!'}));
