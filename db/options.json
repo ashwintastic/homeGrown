@@ -1,4 +1,4 @@
 {
   "models-path": "./app/models",
-  "migrations-path": "./app/migrations"
+  "migrations-path": "./app/db/migrations"
 }
