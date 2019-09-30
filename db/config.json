@@ -1,0 +1,38 @@
+{
+  "default": {
+    "host": "localhost",
+    "connectionLimit": 5,
+    "username": "root",
+    "password": "reset-1234",
+    "debug": false,
+    "dialect": "mysql2"
+  },
+  "development": {
+    "host": "localhost",
+    "connectionLimit": 5,
+    "username": "ashwink",
+    "password": "reset-1234",
+    "debug": false,
+    "database": "home_grown_dev",
+    "dialect": "mysql"
+  },
+  "test": {
+    "host": "localhost",
+    "connectionLimit": 5,
+    "user": "root",
+    "password": "reset-1234",
+    "debug": false,
+    "database": "home_grown_test",
+    "dialect": "mysql"
+  },
+  "production": {
+    "host": "localhost",
+    "connectinLimit": 5,
+    "user": "root",
+    "password": "<%= ENV['TODO'] %>",
+    "debug": false,
+    "database": "home_grown_prod",
+    "username": "root",
+    "dialect": "mysql"
+  }
+}

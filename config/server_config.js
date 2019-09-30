@@ -1,6 +1,4 @@
-import user from '../app/model/user'
 
-console.log('============', new user())
 
 const express = require('express');
 const app = express();
